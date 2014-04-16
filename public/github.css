@@ -159,8 +159,14 @@ kbd {
     color: #777777;
     font-size: 14px;
 }
-.markdown-body p, .markdown-body blockquote, .markdown-body ul, .markdown-body ol, .markdown-body dl, .markdown-body table, .markdown-body pre {
-    margin: 15px 0;
+.markdown-body blockquote, .markdown-body table, .markdown-body pre {
+    margin: 10px 0;
+}
+.markdown-body p {
+    margin: 0px 0;
+}
+.markdown-body ul, .markdown-body ol, .markdown-body dl {
+    margin: 0px 0;   
 }
 .markdown-body hr {
     background: url("/public/github-dirty-shade.png") repeat-x scroll 0 0 transparent;
@@ -245,7 +251,7 @@ kbd {
 }
 .markdown-body table th, .markdown-body table td {
     border: 1px solid #CCCCCC;
-    padding: 6px 13px;
+    padding: 3px 8px;
 }
 .markdown-body table tr {
     background-color: #FFFFFF;
