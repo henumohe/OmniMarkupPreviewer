@@ -31,7 +31,7 @@
   </script>
   <script type="text/javascript" src="/public/jquery-1.9.1.min.js"></script>
   <script type="text/javascript" src="/public/jquery.imagesloaded.min.js"></script>
-  <script type="text/javascript" src="/public/app.min.js"></script>
+  <script type="text/javascript" src="/public/app.js"></script>
   %if mathjax_enabled:
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
