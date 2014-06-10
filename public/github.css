@@ -214,7 +214,6 @@ pre {
 .markdown-body h4,
 .markdown-body h5,
 .markdown-body h6 {
-  margin: 1em 0 15px;
   padding: 0;
   font-weight: bold;
   line-height: 1.7;
@@ -225,38 +224,47 @@ pre {
 .markdown-body h1 {
   font-size: 2.5em;
   border-bottom: 1px solid #ddd;
+  margin: 1em 0 15px;
 }
 
 .markdown-body h2 {
   font-size: 2em;
   border-bottom: 1px solid #eee;
+  margin: 1em 0 13px;
 }
 
 .markdown-body h3 {
   font-size: 1.5em;
+  margin: 1em 0 11px;
 }
 
 .markdown-body h4 {
   font-size: 1.2em;
+  margin: 1em 0 9px;
 }
 
 .markdown-body h5 {
   font-size: 1em;
+  margin: 1em 0 7px;
 }
 
 .markdown-body h6 {
   color: #777;
   font-size: 1em;
+  margin: 1em 0 5px;
 }
 
-.markdown-body p,
 .markdown-body blockquote,
+.markdown-body table,
+.markdown-body pre {
+  margin: 10px 0;
+}
+
 .markdown-body ul,
 .markdown-body ol,
 .markdown-body dl,
-.markdown-body table,
-.markdown-body pre {
-  margin: 15px 0;
+.markdown-body p {
+  margin: 0px 0;
 }
 
 .markdown-body hr {
@@ -323,7 +331,7 @@ pre {
 .markdown-body table th,
 .markdown-body table td {
   border: 1px solid #ddd;
-  padding: 6px 13px;
+  padding: 3px 8px;
 }
 
 .markdown-body table tr {
